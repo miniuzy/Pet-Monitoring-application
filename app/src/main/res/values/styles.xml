@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="backgroundcolor">#ffffff</item>
+        <item name="cardbackground">@color/lightblue</item>
+        <item name="tintcolor">#777a7c</item>
+        <item name="textcolor">#FFFFFF</item>
+        <item name="buttoncolor">@color/com_facebook_blue</item>
+
+    </style>
+
+    <!--Theme two for App-->
+    <style name="darktheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here.
+         Do light blue font and grey boxes for this theme
+         -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/lightblue</item>
+        <item name="backgroundcolor">#767676</item>
+        <item name="cardbackground">#A9A9A9</item>
+        <item name="tintcolor">#777a7c</item>
+        <item name="textcolor">@color/lightblue</item>
+        <item name="buttoncolor">@color/com_facebook_blue</item>
+        <item name ="android:windowAnimationStyle">@style/AnimationTransition</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AnimationTransition">
+        <item name="android:windowEnterAnimation"> @android:anim/fade_in</item>
+        <item name="android:windowExitAnimation"> @android:anim/fade_out</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+</resources>
